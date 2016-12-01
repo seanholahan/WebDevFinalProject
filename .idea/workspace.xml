@@ -112,8 +112,8 @@
           <file leaf-file-name="user.service.client.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/stitch/views/user/user.service.client.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="45" column="57" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="57" />
+                <state relative-caret-position="210">
+                  <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -137,9 +137,9 @@
         <option value="$PROJECT_DIR$/public/stitch/serveces/user.service.server.js" />
         <option value="$PROJECT_DIR$/public/stitch/views/user/login.html" />
         <option value="$PROJECT_DIR$/public/stitch/index.html" />
-        <option value="$PROJECT_DIR$/public/stitch/views/user/user.service.client.js" />
         <option value="$PROJECT_DIR$/public/stitch/views/user/login.controller.client.js" />
         <option value="$PROJECT_DIR$/public/stitch/views/user/register.html" />
+        <option value="$PROJECT_DIR$/public/stitch/views/user/user.service.client.js" />
       </list>
     </option>
   </component>
@@ -150,8 +150,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
-    <option name="y" value="342" />
+    <option name="x" value="1" />
+    <option name="y" value="58" />
     <option name="width" value="1280" />
     <option name="height" value="693" />
   </component>
@@ -354,15 +354,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480627747218</updated>
-      <workItem from="1480627748895" duration="4748000" />
+      <workItem from="1480627748895" duration="5052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4748000" />
+    <option name="totallyTimeSpent" value="5052000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="342" width="1280" height="693" extended-state="0" />
+    <frame x="1" y="58" width="1280" height="693" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -459,8 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stitch/views/user/user.service.client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="45" column="57" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="57" />
+        <state relative-caret-position="210">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
           <folding />
         </state>
       </provider>

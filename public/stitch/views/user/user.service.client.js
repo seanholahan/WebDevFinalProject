@@ -30,6 +30,8 @@
 
             vm.websites = WebsiteService.findWebsitesForUser(vm.userId);
             console.log(vm.websites);
+            console.log(vm.websites);
+            console.log(vm.websites);
 
         }
 
