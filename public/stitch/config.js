@@ -32,8 +32,13 @@
                 controllerAs: "model"
             })
 
+            .when("/profile", {
+                templateUrl: "views/user/profile.html",
+
+            })
+
             .when("/register", {
-                templateUrl: "views/register.html"
+                templateUrl: "views/user/register.html"
             })
 
             .when("/stitch1", {
