@@ -3,70 +3,60 @@
         .module("WebAppMaker")
         .factory("UserService", UserService)
 
-    function UserService() {
+    function UserService($http) {
         var users = [
             {username: 'alice', password: 'eqdfs'}
         ];
 
         var api = {
-            findUserByCredential: findUserByCredentials,
-            createUser: createUser,
-            findUserById: findUserById,
-            findUserByUsername : findUserByUsername,
-            updateUser: updateUser,
-            deleteUser:deleteUser
+            "login": login,
+            "findUserByCredential": findUserByCredentials,
+            "createUser": createUser,
+            "findUserById": findUserById,
+            "updateUser": updateUser,
+            "deleteUser": deleteUser
+
 
         };
         return api;
 
+        function login(username, password) {
+            var user = {
+                username: username,
+                password: password
+            };
+            return $http.post("/api/login", user);
+        }
 
-        function createUser(user) {
-            user._id = (new Date()).getTime();
-            website.developerId = this.userId;
-            console.log(website);
-            WebsiteService.createWebsite(website);
+        function deleteUser(uid) {
+            var url = "/api/user/" + uid;
+            return $http.delete(url);
+        }
 
-            $location.url("/user/" + vm.userId + "/website");
+        function updateUser(user) {
+            var url = "/api/user/" + user._id;
+            $http.put(url, user);
+        }
 
-            vm.websites = WebsiteService.findWebsitesForUser(vm.userId);
-            console.log(vm.websites);
-            console.log(vm.websites);
-            console.log(vm.websites);
-
+        function createUser(username, password) {
+            var user = {
+                username: username,
+                password: password
+            };
+            var url = "/api/user/"+user._id;
+            return $http.post(url, user);
         }
 
         function findUserById(userId) {
-
+            var url = "/api/user/" + userId;
+            return $http.get(url);
         }
-
-        function findUserByUsername(username) {
-
-        }
-
-
 
         function findUserByCredentials(username, password) {
-            for (var u in users) {
-                var user = users[u];
-                if (user.username === username && user.password === password) {
-                    found = true;
-                    break;
-                }
-
-            }
-        }
-
-        function updateUser(userId, user) {
+            var url = '/api/user?username=' + username + '&password=' + password;
+            return $http.get(url);
 
         }
-
-        function deleteUser(userId) {
-
-        }
-
-
-
-
 
     }
 
