@@ -15,10 +15,10 @@
         vm.unregisterUser = unregisterUser;
         vm.logout = logout;
 
-        function init() {
-            UserService
+        //function init() {
+        //    UserService
             // .findUserById(userId)
-                .findCurrentUser()
+/*                .findCurrentUser()
                 .success(function(user){
                     if(user != '0') {
                         vm.user = user;
@@ -28,7 +28,7 @@
 
                 });
         }
-        init();
+        init();*/
 
         function logout() {
             UserService.logout()

@@ -15,8 +15,7 @@ app.use(express.static(__dirname + '/public'));
 
 // require ("./test/app.js")(app);
 
-require("./assignment/app.js")(app);
-require("./ejs/hello/app.js")(app);
+require("./stitch/app.js")(app);
 
 var websites = [
     {_id: 321, name: 'facebook.com', uid: 123},
@@ -24,14 +23,10 @@ var websites = [
     {_id: 543, name: 'twitter.com', uid: 234}
 ];
 
-app.get("/products", function(req, res){
+app.get("/product", function(req, res){
     res.send(products);
 });
 
-
-require("./ejs/forms/app")(app);
-
-require("./ejs/math/app")(app);
 
 // require("./sandbox/websites/model/test.model.server")(app);
 

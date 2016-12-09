@@ -20,19 +20,6 @@
         };
         return api;
 
-
-
-        function createUser(user) {
-            user._id = (new Date()).getTime();
-            website.developerId = this.userId;
-            console.log(website);
-            WebsiteService.createWebsite(website);
-
-            $location.url("/user/" + vm.userId + "/website");
-        }
-
-
-
         function login(username, password) {
             var user = {
                 username: username,
@@ -55,7 +42,8 @@
         function createUser(username, password) {
             var user = {
                 username: username,
-                password: password
+                password: password,
+                _id: Date.now()
             };
             var url = "/api/user/"+user._id;
             return $http.post(url, user);

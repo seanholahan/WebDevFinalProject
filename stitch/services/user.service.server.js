@@ -26,40 +26,6 @@ module.exports = function(app, model) {
         res.send(req.isAuthenticated() ? req.user : '0');
     }
 
-    function serializeUser(user, done) {
-        done(null, user);
-    }
-
-    function deserializeUser(user, done) {
-        model.userModel
-            .findUserById(user._id)
-            .then(
-                function(user){
-                    done(null, user);
-                },
-                function(err){
-                    done(err, null);
-                }
-            );
-    }
-
-    function localStrategy(username, password, done) {
-        model
-            .userModel
-            .findUserByCredentials(username, password)
-            .then(
-                function (user) {
-                    if (!user) {
-                        return done(null, false);
-                    }
-                    return done(null, user);
-                },
-                function (error) {
-                    res.sendStatus(400).send(error);
-                }
-            );
-    }
-
     function unregisterUser(req, res) {
         var uid = req.params.uid;
         model
@@ -129,19 +95,6 @@ module.exports = function(app, model) {
             );
 
     }
-
-
-
-    /*    .then(function(newUser) {*/
-    /*            console.log("creating user")*/
-    /*            res.send(newUser);*/
-    /*        },*/
-    /*        function (error) {*/
-    /*            res.sendStatus(400).send(error);*/
-    /*        }*/
-
-
-
 
     function findUser(req, res) {
         var params = req.params;
