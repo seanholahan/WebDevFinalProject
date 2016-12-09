@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0aaf95be-05e0-4c37-a02a-52d55093825e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stitch/views/user/register.controller.client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stitch/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stitch/models/model.server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stitch/models/user/user.model.server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stitch/models/user/user.schema.server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/stitch/serveces/user.service.server.js" afterPath="$PROJECT_DIR$/stitch/services/user.service.server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stitch/app.js" afterPath="$PROJECT_DIR$/public/stitch/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stitch/config.js" afterPath="$PROJECT_DIR$/public/stitch/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stitch/index.html" afterPath="$PROJECT_DIR$/public/stitch/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stitch/views/user/register.html" afterPath="$PROJECT_DIR$/public/stitch/views/user/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stitch/views/user/user.service.client.js" afterPath="$PROJECT_DIR$/public/stitch/views/user/user.service.client.js" />
-    </list>
+    <list default="true" id="0aaf95be-05e0-4c37-a02a-52d55093825e" name="Default" comment="" />
     <ignored path="finalproject.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -467,12 +452,12 @@
       <option name="presentableId" value="Default" />
       <updated>1480627747218</updated>
       <workItem from="1480627748895" duration="5052000" />
-      <workItem from="1481228905601" duration="9806000" />
+      <workItem from="1481228905601" duration="9978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14858000" />
+    <option name="totallyTimeSpent" value="15030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
