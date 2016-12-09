@@ -24,12 +24,21 @@
   <component name="FileEditorManager">
     <splitter split-orientation="vertical" split-proportion="0.34387895">
       <split-first>
+<<<<<<< HEAD
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/stitch/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="450">
                   <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+=======
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/stitch/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
                   <folding />
                 </state>
               </provider>
@@ -67,8 +76,13 @@
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file leaf-file-name="read.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/node_modules/body-parser/lib/read.js">
+=======
+          <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/stitch/views/user/register.html">
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -79,8 +93,13 @@
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/node_modules/body-parser/package.json">
+=======
+          <file leaf-file-name="profile.controller.client.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/stitch/views/user/profile.controller.client.js">
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -89,6 +108,7 @@
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file leaf-file-name="user.schema.server.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/stitch/models/user/user.schema.server.js">
               <provider selected="true" editor-type-id="text-editor">
@@ -106,6 +126,23 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
                   <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+=======
+          <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/stitch/views/user/profile.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/stitch/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
                   <folding />
                 </state>
               </provider>
@@ -139,18 +176,41 @@
       </split-first>
       <split-second>
         <leaf>
+<<<<<<< HEAD
           <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/stitch/views/user/register.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="116">
                   <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+=======
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/stitch/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-362">
+                  <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file leaf-file-name="user.service.server.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/stitch/services/user.service.server.js">
+=======
+          <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/stitch/config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="450">
+                  <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="user.service.client.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/stitch/views/user/user.service.client.js">
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
                   <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -196,6 +256,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/public/stitch/serveces/user.service.server.js" />
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
         <option value="$PROJECT_DIR$/public/stitch/views/user/login.html" />
         <option value="$PROJECT_DIR$/public/stitch/views/user/login.controller.client.js" />
         <option value="$PROJECT_DIR$/public/stitch/serveces/user.service.server.js" />
@@ -206,6 +270,7 @@
         <option value="$PROJECT_DIR$/public/stitch/config.js" />
         <option value="$PROJECT_DIR$/public/stitch/views/user/register.controller.client.js" />
         <option value="$PROJECT_DIR$/public/stitch/views/user/user.service.client.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/public/stitch/views/user/register.html" />
         <option value="$PROJECT_DIR$/stitch/models/model.server.js" />
         <option value="$PROJECT_DIR$/stitch/models/user/user.schema.server.js" />
@@ -213,6 +278,10 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/stitch/index.html" />
         <option value="$PROJECT_DIR$/stitch/services/user.service.server.js" />
+=======
+        <option value="$PROJECT_DIR$/public/stitch/config.js" />
+        <option value="$PROJECT_DIR$/public/stitch/index.html" />
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
       </list>
     </option>
   </component>
@@ -226,6 +295,11 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+=======
+    <option name="x" value="38" />
+    <option name="y" value="458" />
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -451,17 +525,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480627747218</updated>
+<<<<<<< HEAD
       <workItem from="1480627748895" duration="5052000" />
       <workItem from="1481228905601" duration="9978000" />
+=======
+      <workItem from="1480627748895" duration="5892000" />
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="15030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="false" />
+=======
+    <option name="totallyTimeSpent" value="5892000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="38" y="458" width="1280" height="693" extended-state="0" />
+    <editor active="true" />
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25703126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -517,6 +603,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/stitch/views/user/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -576,6 +663,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stitch/views/user/user.service.client.js">
+=======
+    <entry file="file://$PROJECT_DIR$/public/stitch/app.js">
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -591,6 +681,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/stitch/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -610,6 +701,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stitch/views/user/profile.controller.client.js">
+=======
+    <entry file="file://$PROJECT_DIR$/public/stitch/serveces/user.service.server.js">
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="60" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="60" />
@@ -625,6 +719,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/stitch/views/user/register.controller.client.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -639,6 +734,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/public/stitch/views/user/user.service.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
           <folding />
         </state>
       </provider>
@@ -667,14 +768,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stitch/views/user/user.service.client.js">
+    <entry file="file://$PROJECT_DIR$/public/stitch/views/user/profile.controller.client.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="390">
           <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/stitch/models/user/user.schema.server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -699,6 +806,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+=======
+    <entry file="file://$PROJECT_DIR$/public/stitch/views/user/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stitch/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stitch/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
+>>>>>>> c085f51b7b81ff6981dddfeb1c3943122d70d6e1
           <folding />
         </state>
       </provider>

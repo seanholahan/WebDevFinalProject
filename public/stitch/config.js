@@ -37,7 +37,6 @@
                 templateUrl: "views/user/profile.html",
                 controller: "ProfileController",
                 controllerAs: "model"
-
             })
 
             .when("/register", {
