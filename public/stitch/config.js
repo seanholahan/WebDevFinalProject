@@ -41,6 +41,12 @@
                 templateUrl: "views/user/register.html"
             })
 
+            .when("/createProduct", {
+                templateUrl: "views/product/createProduct.html",
+                controller: "CreateProductController",
+                controllerAs: "model"
+            })
+
             .when("/stitch1", {
                 templateUrl: "item/stitch1.html"
             })

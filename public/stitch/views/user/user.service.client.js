@@ -28,10 +28,6 @@
 
             $location.url("/user/" + vm.userId + "/website");
 
-            vm.websites = WebsiteService.findWebsitesForUser(vm.userId);
-            console.log(vm.websites);
-            console.log(vm.websites);
-            console.log(vm.websites);
 
         }
 
