@@ -20,7 +20,7 @@
         };
         return api;
 
-<<<<<<< HEAD
+
 
         function createUser(user) {
             user._id = (new Date()).getTime();
@@ -29,16 +29,17 @@
             WebsiteService.createWebsite(website);
 
             $location.url("/user/" + vm.userId + "/website");
+        }
 
 
-=======
+
         function login(username, password) {
             var user = {
                 username: username,
                 password: password
             };
             return $http.post("/api/login", user);
->>>>>>> e041d3142d82f17da268f486ad88ff18db777f33
+
         }
 
         function deleteUser(uid) {
