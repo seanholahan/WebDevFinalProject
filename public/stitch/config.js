@@ -8,6 +8,7 @@
         $routeProvider
             .when("/", {
                 templateUrl: "views/home.html"
+
             })
 
             .when("/home", {
@@ -34,11 +35,14 @@
 
             .when("/profile", {
                 templateUrl: "views/user/profile.html",
-
+                controller: "ProfileController",
+                controllerAs: "model"
             })
 
             .when("/register", {
-                templateUrl: "views/user/register.html"
+                templateUrl: "views/user/register.html",
+                controller: "RegisterController",
+                controllerAs: "model"
             })
 
             .when("/createProduct", {
